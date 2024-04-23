@@ -1,5 +1,5 @@
 /*	
-	MC Load Poses On Selected Frames v1.0
+	MC Load Poses On Selected Frames
 	
 	On each selected frame, this script reads the Master Controller's current position and then load the pose that corresponds to the position.
 	You can load poses from Master Controller rigs created with Interporation Grid and Slider Wizards.
@@ -22,8 +22,8 @@
 	2) Locate to your user scripts folder (a hidden folder):
 	   https://docs.toonboom.com/help/harmony-17/premium/scripting/import-script.html	
 
-	3) Add all unzipped files (*.js, *.ui and script-icons folder) directly to the folder above.	
-	4) Add ANM_MC_Load_Poses_On_Selected_Frames to any toolbar.
+	3) There is a folder named "src" inside the zip file. Copy all its contents directly to the folder above.	
+	4) In Harmony, add ANM_MC_Load_Poses_On_Selected_Frames function to any toolbar.
 	
 	
 	Direction:
@@ -47,6 +47,9 @@
 
 	Yu Ueda (raindropmoment.com)		
 */
+
+
+var scriptVer = "1.0";
 
 
 function ANM_MC_Load_Poses_On_Selected_Frames()
